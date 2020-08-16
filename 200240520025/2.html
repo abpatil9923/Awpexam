@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>second program</title>
+</head>
+
+<link rel="stylesheet" href="/2.css">
+<script src="/2.js"></script>
+
+<body>
+
+    <div class="container">
+
+        <div style="display: flex; background-color: rgb(255, 255, 136); box-shadow: 6px 6px 8px rgb(102, 102, 102);">
+            <ul class="inputul">
+                <form action="" onsubmit="return handlevalidation()">
+                    <img style="height: 50px; width: 50px; margin-left: 70px ;" src="/avatar.svg" alt="">
+                    <h3 class="heading">
+                        Login Form
+                    </h3>
+                    <li><label for="">Username</label></li>
+                    <li><input id="username" type="text" required></li>
+                    <li><label for="">Email</label></li>
+                    <li><input id="email" type="email" required></li>
+                    <li><label id="pass" for="">password</label></li>
+                    <li><input type="password" required></li>
+                    <li><input type="submit" name="" onclick="fetchData(this)" id="submitbtn"></li>
+                </form>
+            </ul>
+            <div class="fieldcontainer">
+
+                
+                <ul id="fieldul" >
+                    <h3 class="head">User Data</h3>
+                    <li id="field1">atul</li>
+                    <li id="field2">abpatil9923@gmail.com</li>
+                    <li id="field3">9923</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
